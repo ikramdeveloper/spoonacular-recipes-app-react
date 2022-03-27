@@ -1,3 +1,31 @@
+# Recipe App
+
+React Recipe App using styled-components and Spoonacular API
+
+---
+
+### Author Links
+
+👋 Hello, I'm Ikram Ul Haq - Web Developer & Coder
+
+☕ [Buy Me A Coffee](https://www.buymeacoffee.com/ikramdev)
+
+🚀 Follow Me:
+
+- [Twitter](https://twitter.com/ikramdev)
+- [LinkedIn](https://www.linkedin.com/in/ikramdev/)
+- [StackOverflow](https://stackoverflow.com/users/13859212/ikram-ul-haq)
+
+---
+
+### Spoonacular API
+
+Go to [Spoonacular API](https://spoonacular.com/food-api), create account and get API key in profile section.
+
+Course By [DevEd](https://www.youtube.com/watch?v=xc4uOzlndAk)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
