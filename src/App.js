@@ -12,9 +12,24 @@ const App = () => {
         <GiKnifeFork />
         <Logo to={"/"}>delicious</Logo>
       </Nav>
-      <Search />
-      <Category />
-      <Pages />
+      {!process.env.REACT_APP_FOOD_API_KEY ? (
+        <p>
+          Please get the API key from{" "}
+          <strong>
+            <a href="https://spoonacular.com/food-api/">Spoonacular Food Api</a>
+          </strong>
+          <br />
+          <br />
+          and add it in your env file with{" "}
+          <strong>"REACT_APP_FOOD_API_KEY"</strong> name and restart the app
+        </p>
+      ) : (
+        <>
+          <Search />
+          <Category />
+          <Pages />
+        </>
+      )}
     </div>
   );
 };
